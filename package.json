@@ -1,0 +1,28 @@
+{
+  "name": "mongo-basico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "i": "^0.3.6",
+    "mongoose": "^5.9.24",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diafara2003/mongo-basico.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diafara2003/mongo-basico/issues"
+  },
+  "homepage": "https://github.com/diafara2003/mongo-basico#readme"
+}
