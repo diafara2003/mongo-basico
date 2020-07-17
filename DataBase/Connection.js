@@ -1,17 +1,15 @@
+require('dotenv/config');
+
 const mongoose = require('mongoose');
-
-const URI = "mongodb+srv://dbadmin:andres123@cluster0.saau5.azure.mongodb.net/<dbname>?retryWrites=true&w=majority";
-
 const connectDB = async () => {
 
-    await mongoose.connect(URI, {
+    await mongoose.connect(process.env.DB_CONNECTION, {
         useNewUrlParser: true,
         useUnifiedTopology: true
     });
 
     console.log("db connected");
 };
-
 
 
 module.exports = connectDB;
