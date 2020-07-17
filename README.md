@@ -1,4 +1,4 @@
-# Build A Restful Api With Node.js Express & MongoDB
+# Build a Restful Api With Node.js Express & MongoDB
 
 this is a example how make a rest api with mongodb
 
