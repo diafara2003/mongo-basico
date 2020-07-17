@@ -1,7 +1,6 @@
 {
   "name": "mongo-basico",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -28,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/diafara2003/mongo-basico/issues"
   },
-  "homepage": "https://github.com/diafara2003/mongo-basico#readme"
+  "homepage": "https://github.com/diafara2003/mongo-basico#readme",
+  "description": ""
 }
